@@ -1,0 +1,31 @@
+.flag {
+  width: 150px;
+  height: 150px;
+  background-color: #cc0404;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.flag > div {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.flag > div > div:nth-child(1) {
+  width: 100%;
+  height: 30%;
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  border-radius: 10px;
+}
+
+.flag > div > div:nth-child(2) {
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  left: 50px;
+  border-radius: 10px;
+}
