@@ -8,35 +8,40 @@ html, body {
   margin: 0 auto;
 }
 
-header, footer {
+header {
   width: 100%;
-  height: 160px;
-  line-height: 160px;
-  text-align: center;
+  height: 240px;
+}
+
+header > .left,
+header > .right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #9191fb;
+  color: #fff;
   font-family: 'Arial', sans-serif;
   font-size: 50px;
-  color: #fff;
+  line-height: 240px;
+  text-align: center;
+}
+
+header > .right {
   background-color: #239ec6;
 }
 
-section {
-  height: 700px;
+section.content, 
+footer {
   width: 100%;
-}
-
-section > .left,
-section > .right {
-  width: 50%;
-  height: 100%;
-  line-height: 700px;
-  text-align: center;
+  height: 240px;
+  background-color: #91e5f7;
+  color: #fff;
   font-family: 'Arial', sans-serif;
   font-size: 50px;
-  color: #fff;
-  float: left;
-  background-color: #9191fb;
+  line-height: 240px;
+  text-align: center;
 }
 
-section > .right {
-  background-color: #ade4f6;
+footer {
+  background-color: #239ec6;
 }
