@@ -2,9 +2,9 @@
 
 const header = document.getElementById('header');
 const group = document.getElementById('group');
-const p = document.getElementsByTagName('p')[0];
-const label = document.getElementsByTagName('p')[1];
-const img = document.getElementsByTagName('img')[0];
+const p = document.all[10];
+const label = document.all[14];
+const img = document.all[13];
 
 const headerHandler = (e) => {
   const bg = header.style.backgroundColor;
